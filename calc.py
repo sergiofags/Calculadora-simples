@@ -56,8 +56,8 @@ while True:
         print((num1, "/", num2, "=", divisao(num1, num2)))
 
     #Perguntar se o usuário deseja fazer um novo calculo
-    next_calculation = input("Deseja fazer outro calculo? (s/n)")
-    if next_calculation == "n":
+    prox_calculo = input("Deseja fazer outro calculo? (s/n)")
+    if prox_calculo == "n":
         print("Calculo Finalizado")
         break
     else:
